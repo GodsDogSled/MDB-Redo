@@ -1,0 +1,67 @@
+@font-face {
+    font-family: grotesque-bold;
+    src: url(../fonts/bold/grotesque-bold.woff2)
+}
+
+@font-face {
+    font-family: shapiro;
+    src: url(../fonts/shapiro/shapiro-45-welter-text.otf)
+}
+
+
+//drop-down menu
+@font-face {
+    font-family: shapiro-95-extd;
+    src: url(../fonts/shapiro/Shapiro-95-Super-Extd.otf)
+}
+
+// movie-title font
+@font-face {
+    font-family: shapiro-45-welter-text;
+    src: url(../fonts/shapiro/shapiro-45-welter-text.otf)
+}
+
+// movie-overview font
+@font-face {
+    font-family: shapiro-35-feather-text;
+    src: url(../fonts/shapiro/Shapiro-35-Feather-Text.otf)
+}
+
+// movie-vote-average font (rating)
+@font-face {
+    font-family: shapiro-55-middle-extd;
+    src: url(../fonts/shapiro/Shapiro-55-Middle-Extd.otf)
+}
+
+
+//variables
+$font: shapiro;
+$text-color: white;
+$base-color: black;
+$columns-display: repeat(3, 1fr);
+$grid: grid;
+
+$poster-width: 300px;
+$poster-height: 600px;
+$rounded-border: 25px;
+$center-content: center;
+
+
+//breaking points for responsive page
+$mobile: 320px;
+$tabletPortrait: 768px;
+$desktopMedium: 1080px;
+$laptop: 1280px;
+$desktop: 1440px;
+
+//works on mobile
+
+
+
+
+.search-button {
+    background: none;
+    border: none;
+}
+
+//

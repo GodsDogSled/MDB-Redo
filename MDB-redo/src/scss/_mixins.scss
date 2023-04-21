@@ -1,0 +1,71 @@
+@mixin select-webkit {
+
+  .drop-down,
+  select {
+    //remove webkit appearance
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    //style tags
+    font-size: 30px;
+    font-family: shapiro-95-extd;
+    width: 94%;
+    color: white;
+    background-color: BLACK;
+    border-bottom: 2px solid white;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    // position: fixed;
+
+
+    .decorated option:hover {
+      box-shadow: 0 0 10px 100px #1882A8 inset;
+    }
+  }
+
+
+
+  // option {
+  //   background-color: black;
+
+  // }
+
+  option:hover {
+    color: red;
+  }
+}
+
+
+
+@mixin drop-down-container {
+  padding-top: 70px;
+  position: fixed;
+  width: 100%;
+}
+
+
+@mixin nav-desktop {
+  display: flex;
+  justify-content: flex-start;
+  background: black;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+}
+
+
+
+// @mixin nav-mobile-a {
+
+
+//   float: left;
+//   padding: 1rem;
+//   text-transform: uppercase;
+//   font-weight: bold;
+//   color: white;
+//   background-color: black;
+//   text-decoration: none;
+//   font-family: shapiro;
+
+// }

@@ -1,0 +1,13 @@
+@use "main";
+// @use "header";
+@use "footer";
+@use 'movie-card';
+
+@use "mixins";
+@use "var";
+
+@use "singlemovie";
+
+@use "dropdown";
+@use "about-page";
+@use "search";
